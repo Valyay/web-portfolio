@@ -13,116 +13,100 @@
 		<title>Web-portfolio</title>
 	</head>
 	<body>
-		<section class="container task_section">
-			<div class="container">
-				<div
-					class="header_height d-flex justify-content-between align-items-center"
-				>
-					<i class="fas fa-home fa-2x cursor_pointer" aria-hidden="true"></i>
-
-					<nav class="d-flex align-self-start col-5 margin">
-						<a class="link">About me</a>
-						<hr noshade class="vert_line" />
-						<a class="link">Contact</a>
-						<hr noshade class="vert_line" />
-						<a class="link">Portfolio</a>
-						<hr noshade class="vert_line" />
-						<a class="link">By date</a>
-					</nav>
-				</div>
-			</div>
-			<div class="padding">
-				<span class="large_font">Task Name</span>
-				<p>
-					Спроектируйте для выбранной ИС макет (wireframe) или набор макетов
-					пользовательского интерфейса в зависимости от структуры и типа ИС: для
-					одной или нескольких страниц, если это веб-приложение или окон, если
-					десктопное приложение. Укажите, как осуществляется переход между этими
-					страницами. С учетом спроектированных макетов и в зависимости от
-					структуры и типа приложения реализуйте интерфейс (сверстайте в случае
-					веб-приложения одну или несколько страниц), представленный на созданых
-					макетах (см. п. 1). Для вертски могут использоваться любые
-					фронтэнд-технологии и CSS-фреймворки
-				</p>
-			</div>
-			<div class="d-flex flex-column align-items-center">
-				<span class="large_font">Solution</span>
-				<textarea
-					placeholder="Code examples, links, images"
-					name="text"
-				></textarea>
-				<div class="container d-flex justify-content-between">
-					<div class="margin d-flex align-items-center">
-						<i class="fas fa-thumbs-down fa-3x margin"></i>
-						<span>43</span>
-					</div>
-					<div class="margin d-flex align-items-center">
-						<span style="padding-top: 15px">158</span>
-						<i class="fas fa-thumbs-up fa-3x margin"></i>
-					</div>
-				</div>
-			</div>
-			<div class="justify-content-center">
-				<hr size="3px" width="1100px" />
-			</div>
+		<section class="container developing_section">
 			<div
-				class="d-flex flex-column align-items-center justify-content-around comment_height"
+				class="header_height d-flex flex-column justify-content-between align-items-center"
 			>
-				<span class="large_font large_bottom_margin">Comments</span>
-				<div style="width: 90%" class="row margin">
-					<div class="user align-self-center margin"></div>
-					<div class="col comment_color">
-						<span>
-							Nice solution!
-						</span>
-					</div>
-					<div class="row margin">
-						<div class="align-self-center margin">
-							<i class="fas fa-thumbs-up fa-2x"></i>
-						</div>
-						<div class="align-self-center margin">
-							<i class="fas fa-thumbs-down fa-2x"></i>
-						</div>
+				<nav class="d-flex justify-content-center col-5">
+					<a class="link">Home</a>
+					<hr noshade class="vert_line" />
+					<a class="link">About</a>
+					<hr noshade class="vert_line" />
+					<a class="link">Contacts</a>
+				</nav>
+			</div>
+			<div class="d-flex justify-content-around">
+				<div
+					style="width: 35%"
+					class="d-flex flex-column justify-content-around"
+				>
+					<span class="large_font"
+						>Developing iOS and Android applications</span
+					>
+					<span class="med_font"
+						>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam
+						velit, vulputate eu pharetra nec, mattis ac neque.
+					</span>
+					<div class="d-flex justify-content-between">
+						<button style="color:white" class="button grey">iOS</button
+						><button style="color:black" class="button lightGray">
+							Android
+						</button>
 					</div>
 				</div>
-				<div style="width: 90%" class="row margin">
-					<div class="user align-self-center margin"></div>
-					<div class="col comment_color">
-						<span>
-							Could be better!
-						</span>
-					</div>
-					<div class="row margin">
-						<div class="align-self-center margin">
-							<i class="fas fa-thumbs-up fa-2x"></i>
-						</div>
-						<div class="align-self-center margin">
-							<i class="fas fa-thumbs-down fa-2x"></i>
-						</div>
-					</div>
+				<div class="d-flex justify-content-center col-4">
+					<div class="smartphone"></div>
 				</div>
 			</div>
 		</section>
-		<footer
-			class="container padding footer_height d-flex flex-column justify-content-around"
-		>
-			<div class="row justify-content-center">
-				<div class="col-5 d-flex justify-content-around">
-					<span class="cursor_pointer">About me</span>
-					<hr noshade class="vert_line" />
-					<span class="cursor_pointer">Contact</span>
-					<hr noshade class="vert_line" />
-					<span class="cursor_pointer">Portfolio</span>
-					<hr noshade class="vert_line" />
-					<span class="cursor_pointer">By date</span>
+		<section class="container personal_section">
+			<div class="d-flex justify-content-around large_top_padding">
+				<div
+					style="height: 150px"
+					class="d-flex flex-column justify-content-between col-5"
+				>
+					<span class="large_font"> Personal Information </span>
+					<span class="med_font"
+						>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+						accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+						quae ab illo inventore veritatis et quasi architecto beatae vitae
+						dicta sunt explicabo.
+					</span>
 				</div>
+				<div class="mock"></div>
 			</div>
-			<div class="justify-content-center">
-				<hr size="3px" width="200px" />
+		</section>
+		<section class="container personal_section">
+			<div class="d-flex justify-content-around large_top_padding">
+				<div
+					class="d-flex flex-column justify-content-between col-5 align-items-start"
+				>
+					<span class="large_font">Contact me </span>
+					<span class="med_font"
+						>Nam libero tempore, cum soluta nobis est eligendi optio cumque
+						nihil impedit quo minus id quod maxime placeat facere possimus,
+						omnis voluptas assumenda est, omnis dolor repellendus.
+					</span>
+					<hr style="margin: 0" size="3px" width="100px" />
+					<div>
+						<i style="padding-right: 18px" class="fas fa-map-pin"></i
+						><span>Nevski Prospect, St. Peterspurg, Russia</span>
+					</div>
+					<div>
+						<i style="padding-right: 10px" class="fas fa-phone"></i
+						><span>812-2-12-85-06</span>
+					</div>
+				</div>
+				<form
+					style="height: 250px"
+					class="d-flex flex-column justify-content-around"
+				>
+					<div>
+						<input placeholder="Email Address" type="text" />
+						<input placeholder="Full Name" type="text" />
+					</div>
+					<textarea
+						style="resize: none;"
+						placeholder="Message"
+						cols="30"
+						rows="5"
+					></textarea>
+					<button style="color:black" class="button lightGray">Send</button>
+				</form>
 			</div>
-			<div class="row justify-content-center">
-				<span>© Web Portfolio</span>
+			<div class="d-flex justify-content-center">
+				<span class="small_font">Copyright 2020</span>
 			</div>
-		</footer>
+		</section>
 	</body>
 </html>

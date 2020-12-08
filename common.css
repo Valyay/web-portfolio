@@ -15,8 +15,31 @@
 .padding_left {
 	padding-left: 25px;
 }
+.padding_bottom {
+	padding-bottom: 30px;
+}
+.large_top_padding {
+	padding-top: 50px;
+}
 .text_center {
 	text-align: center;
+}
+.lightGray {
+	background-color: lightGray;
+	border: 1px solid lightGray;
+}
+.grey {
+	background-color: #808080;
+	border: 1px solid #808080;
+}
+
+.button {
+	height: 40px;
+	width: 175px;
+}
+
+.vert_line {
+	height: 10px;
 }
 
 a.link:hover,
